@@ -1,0 +1,20 @@
+@font-face {
+  unicode-range: U+20, U+41-5A, U+61-7A, U+25, U+27-29, U+2B-2F, U+3A;
+  font-family: keepsmile;
+  src: url(../media/Keepsmile-s.p.2qywadgll6u40.otf) format("opentype");
+  font-display: swap;
+}
+@font-face {
+  font-family: keepsmile Fallback;
+  src: local(Arial);
+  ascent-override: 73.98%;
+  descent-override: 18.74%;
+  line-gap-override: 0%;
+  size-adjust: 131.79%;
+}
+.keepsmile_a28b524d-module__vipGiq__className {
+  font-family: keepsmile, keepsmile Fallback;
+}
+.keepsmile_a28b524d-module__vipGiq__variable {
+  --font-keepsmile: "keepsmile", "keepsmile Fallback";
+}
