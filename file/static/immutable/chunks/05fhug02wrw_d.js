@@ -97,7 +97,7 @@
             },
             children: [
               (0, s.jsx)(r.Badge, {
-                tone: "The WETH side" === e ? "gold" : "blush",
+                tone: "The gold side" === e ? "gold" : "blush",
                 children: e,
               }),
               (0, s.jsxs)("span", {
@@ -203,7 +203,7 @@
                         },
                         children: (0, s.jsx)(a.Money, {
                           children:
-                            "$SCHIFFY trades against WETH on Robinhood Chain, in a Uniswap v4 pool. Trading fees accrue on both sides of the pair, and every fee the machine collects splits the same way, every time. No promises, no roadmap theatrics — just the split.",
+                            "On Robinhood Chain, in a Uniswap v4 pool. Trading fees accrue on both sides of the pair, and every fee the machine collects splits the same way, every time. No promises, no roadmap theatrics — just the split.",
                         }),
                       }),
                     ],
@@ -221,27 +221,27 @@
               children: [
                 (0, s.jsx)(a.SectionHead, {
                   title: "Where the fees go",
-                  sub: "Two currencies come in. SCHIFFY goes to the vault in full; WETH splits 90/10, holders / vault. The collect crank is permissionless — anyone triggers it, and the split settles on-chain automatically. Holder rewards are then published from a verifiable snapshot, and anyone can execute the claims.",
+                  sub: "Two currencies come in. SCHIFFY goes to the vault in full; GLD splits 90/10, holders / vault. The collect crank is permissionless — anyone triggers it, and the split settles on-chain automatically. Holder rewards are then published from a verifiable snapshot, and anyone can execute the claims.",
                 }),
                 (0, s.jsxs)("div", {
                   className: "grid-2",
                   style: { marginTop: "var(--sp-6)" },
                   children: [
                     (0, s.jsx)(l, {
-                      side: "The WETH side",
-                      currency: "WETH",
+                      side: "The gold side",
+                      currency: "$GLD",
                       split: "90 / 10",
                       branches: [
                         {
                           pct: "90%",
                           title: "Paid to holders",
-                          sub: "WETH, claimable on-chain by $SCHIFFY holders",
+                          sub: "Tokenized gold, claimable on-chain by $SCHIFFY holders",
                           note:
                             i?.gldToHolders != null
                               ? `${(0, a.fmtNum)(
                                   i.gldToHolders,
                                   2
-                                )} WETH distributed`
+                                )} $GLD distributed`
                               : null,
                           tone: "gold",
                         },
@@ -251,7 +251,7 @@
                           sub: "Buried in the Yard. Not Sold.",
                           note:
                             i?.gld != null
-                              ? `${(0, a.fmtNum)(i.gld, 4)} WETH held`
+                              ? `${(0, a.fmtNum)(i.gld, 4)} $GLD held`
                               : null,
                           big: !0,
                         },
@@ -322,7 +322,7 @@
                                 },
                                 children: "90%",
                               }),
-                              " of WETH to holders, ",
+                              " of gold to holders, ",
                               (0, s.jsx)("span", {
                                 style: { fontFamily: "var(--font-mono)" },
                                 children: "10%",
@@ -341,7 +341,7 @@
                             children: [
                               (0, s.jsx)(a.Money, {
                                 children:
-                                  "WETH pays out and the vault fills on both sides. Volume is the engine. The split runs on-chain, not on trust.",
+                                  "Gold pays out and the vault fills on both sides. Volume is the engine. The split runs on-chain, not on trust.",
                               }),
                               o &&
                                 (0, s.jsxs)("span", {

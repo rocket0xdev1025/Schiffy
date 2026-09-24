@@ -139,7 +139,7 @@
                         lineHeight: "var(--lh-body)",
                       },
                       children:
-                        "Stickers, GIFs, films and blank templates, straight from the vault. Download, caption, post, repeat. The dog trades against WETH.",
+                        "Stickers, GIFs, films and blank templates, straight from the vault. Download, caption, post, repeat. The dog is long gold.",
                     }),
                     (0, t.jsxs)("div", {
                       style: {

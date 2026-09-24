@@ -88,14 +88,14 @@
     let d = [
       [
         "01",
-        "$SCHIFFY is paired with WETH",
-        "Not a USD pair. The dog trades directly against WETH, on-chain.",
+        "",
+        "Not a USD pair. The dog trades directly against gold, on-chain, so $SCHIFFY moves with the hardest money there is.",
         "gold",
       ],
       [
         "02",
-        "WETH fees pay $SCHIFFY holders",
-        "90% of the WETH fees the machine collects goes back to holders, claimable on-chain. The other 10% is buried in the vault. Volume compounds it.",
+        "Gold fees pay $SCHIFFY holders",
+        "90% of the $GLD fees the machine collects goes back to holders, claimable on-chain. The other 10% is buried in the vault. Volume compounds it.",
         "cream",
       ],
       [
@@ -160,12 +160,6 @@
                                 tone: "sky",
                                 children: "Robinhood Chain",
                               }),
-                              (0, a.jsx)(r.Tag, {
-                                tone: "gold",
-                                children: (0, a.jsx)(i.Money, {
-                                  children: "Paired with WETH",
-                                }),
-                              }),
                             ],
                           }),
                           (0, a.jsx)("h1", {
@@ -188,7 +182,7 @@
                             },
                             children: (0, a.jsx)(i.Money, {
                               children:
-                                "$SCHIFFY trades against WETH. Every trade stacks $SCHIFFY in the vault and pays WETH back to holders, on-chain. Good boy. Hard money.",
+                                "Every trade stacks $SCHIFFY in the vault and pays gold back to holders, on-chain. Good boy. Hard money.",
                             }),
                           }),
                           (0, a.jsxs)("div", {
@@ -254,8 +248,8 @@
               }),
               (0, a.jsx)(i.Ticker, {
                 text: [
-                  "$SCHIFFY × WETH",
-                  "WETH back to holders",
+                  "$SCHIFFY × $GLD",
+                  "Gold back to holders",
                   "100% of $SCHIFFY fees to the vault",
                   "Good boy. Hard money.",
                 ],
@@ -278,7 +272,7 @@
                       (0, a.jsx)("div", {
                         style: { ...i.CAPS },
                         children: (0, a.jsx)(i.Money, {
-                          children: "Live · WETH holdings",
+                          children: "Live · $GLD holdings",
                         }),
                       }),
                       o &&
@@ -309,16 +303,16 @@
                             },
                             children:
                               n?.gld != null
-                                ? `${(0, i.fmtNum)(n.gld, 4)} WETH buried`
-                                : "— WETH buried · figures go live with the contract",
+                                ? `${(0, i.fmtNum)(n.gld, 4)} $GLD buried`
+                                : "— $GLD buried · figures go live with the contract",
                           }),
                         ],
                       }),
                       (0, a.jsx)(r.Card, {
                         children: (0, a.jsx)(r.Stat, {
-                          label: "Treasury WETH",
+                          label: "Treasury gold",
                           value: (0, i.fmtNum)(n?.gld, 4),
-                          unit: "WETH",
+                          unit: "$GLD",
                           sub: (0, i.fmtUsd)(n?.gldUsd),
                           tone: "gold",
                         }),
@@ -345,13 +339,97 @@
                               ? `${(0, i.fmtNum)(
                                   c.poolGld,
                                   2
-                                )} WETH in the pair`
+                                )} $GLD in the pair`
                               : "—",
                         }),
                       }),
                     ],
                   }),
                 ],
+              }),
+              (0, a.jsx)("section", {
+                style: {
+                  background: "var(--white)",
+                  borderTop: "var(--outline)",
+                  borderBottom: "var(--outline)",
+                },
+                children: (0, a.jsxs)("div", {
+                  className: "max grid-underlying",
+                  style: {
+                    paddingTop: "var(--sp-9)",
+                    paddingBottom: "var(--sp-9)",
+                  },
+                  children: [
+                    (0, a.jsx)(i.SectionHead, {
+                      eyebrow: "The underlying",
+                      title: "Every ounce minted is his chart.",
+                      sub: "$GLD isn't a mascot here: it's the other side of the pair. Tokenized gold, settled on-chain, sits underneath $SCHIFFY's price. When the world wants hard money, the dog eats.",
+                    }),
+                    (0, a.jsxs)("div", {
+                      style: { display: "grid", gap: "var(--sp-3)" },
+                      children: [
+                        (0, a.jsxs)("div", {
+                          className: "grid-3",
+                          children: [
+                            (0, a.jsx)(r.Card, {
+                              tone: "cream",
+                              padding: "var(--sp-4)",
+                              children: (0, a.jsx)(r.Stat, {
+                                label: "Pair side",
+                                value: "$GLD",
+                                size: "sm",
+                              }),
+                            }),
+                            (0, a.jsx)(r.Card, {
+                              tone: "cream",
+                              padding: "var(--sp-4)",
+                              children: (0, a.jsx)(r.Stat, {
+                                label: "In treasury",
+                                value: (0, i.fmtNum)(n?.gld, 4),
+                                size: "sm",
+                              }),
+                            }),
+                            (0, a.jsx)(r.Card, {
+                              tone: "cream",
+                              padding: "var(--sp-4)",
+                              children: (0, a.jsx)(r.Stat, {
+                                label: "Settlement",
+                                value: "On-chain",
+                                size: "sm",
+                              }),
+                            }),
+                          ],
+                        }),
+                        (0, a.jsx)(r.Card, {
+                          tone: "ink",
+                          children: (0, a.jsxs)("div", {
+                            style: {
+                              display: "flex",
+                              alignItems: "center",
+                              gap: "var(--sp-4)",
+                            },
+                            children: [
+                              (0, a.jsx)("div", {
+                                style: { flex: 1 },
+                                children: (0, a.jsx)(r.Stat, {
+                                  label: "$GLD · tokenized gold",
+                                  value: (0, i.fmtUsd)(e?.gld?.priceUsd, 2),
+                                  tone: "inverse",
+                                  sub: "SPDR Gold Trust (NYSE Arca) · live ETF quote",
+                                }),
+                              }),
+                              (0, a.jsx)(r.Badge, {
+                                tone: "gold",
+                                dot: !0,
+                                children: "Live",
+                              }),
+                            ],
+                          }),
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
               }),
               (0, a.jsxs)("section", {
                 className: "max",
@@ -430,15 +508,16 @@
                               },
                               children: e,
                             }),
-                            (0, a.jsx)("h3", {
-                              style: {
-                                ...i.DISPLAY,
-                                fontSize: "var(--fs-heading)",
-                                marginTop: "var(--sp-4)",
-                                lineHeight: "var(--lh-title)",
-                              },
-                              children: (0, a.jsx)(i.Money, { children: s }),
-                            }),
+                            s &&
+                              (0, a.jsx)("h3", {
+                                style: {
+                                  ...i.DISPLAY,
+                                  fontSize: "var(--fs-heading)",
+                                  marginTop: "var(--sp-4)",
+                                  lineHeight: "var(--lh-title)",
+                                },
+                                children: (0, a.jsx)(i.Money, { children: s }),
+                              }),
                             (0, a.jsx)("p", {
                               style: {
                                 marginTop: "var(--sp-3)",
