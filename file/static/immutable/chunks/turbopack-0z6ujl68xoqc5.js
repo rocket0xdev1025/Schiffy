@@ -231,7 +231,7 @@
       R =
         "string" == typeof TURBOPACK_CHUNK_BASE_PATH
           ? TURBOPACK_CHUNK_BASE_PATH
-          : "/_next/",
+          : "/file/",
       U = new Map();
     i.M = U;
     let _ = new Map(),

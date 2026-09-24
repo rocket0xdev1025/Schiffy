@@ -598,11 +598,11 @@
           { value: "E783", enumerable: !1, configurable: !0 }
         );
       let { pathname: t } = new URL(e.src),
-        n = t.indexOf("/_next/");
+        n = t.indexOf("/file/");
       if (-1 === n)
         throw Object.defineProperty(
           new r.InvariantError(
-            `Expected document.currentScript src to contain '/_next/'. Received ${e.src} instead.`
+            `Expected document.currentScript src to contain '/file/'. Received ${e.src} instead.`
           ),
           "__NEXT_ERROR_CODE",
           { value: "E784", enumerable: !1, configurable: !0 }
