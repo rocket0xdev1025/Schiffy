@@ -1788,7 +1788,7 @@
                 color: "var(--ink-500)",
               },
               children:
-                "$SCHIFFY is a memecoin paired with tokenized $GLD on Robinhood Chain. It does not represent ownership of gold, and holders cannot redeem assets from the treasury. Not an investment product, not financial advice. There is no roadmap; the fee split is a fixed on-chain mechanism, not a promise of profit, and distributions depend entirely on trading volume, which may be zero. Unaffiliated parody; not associated with Peter Schiff, Euro Pacific, SPDR, State Street, or Robinhood.",
+                "$SCHIFFY is a memecoin paired with WETH on Robinhood Chain. It does not represent ownership of WETH, and holders cannot redeem assets from the treasury. Not an investment product, not financial advice. There is no roadmap; the fee split is a fixed on-chain mechanism, not a promise of profit, and distributions depend entirely on trading volume, which may be zero. Unaffiliated parody; not associated with Peter Schiff, Euro Pacific, SPDR, State Street, or Robinhood.",
             }),
           ],
         }),
@@ -1884,7 +1884,7 @@
                           fontWeight: "var(--fw-strong)",
                           color: "var(--ink-500)",
                         },
-                        children: "Long gold",
+                        children: "Paired with WETH",
                       }),
                     ],
                   }),

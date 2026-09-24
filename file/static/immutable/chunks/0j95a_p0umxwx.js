@@ -18,8 +18,8 @@
           d = e?.addresses,
           o = [
             {
-              sym: "GLD",
-              name: "Tokenized gold — the vault's 10% of collected fees",
+              sym: "WETH",
+              name: "WETH — the vault's 10% of collected fees",
               amount: (0, l.fmtNum)(n?.gld, 4),
               value: (0, l.fmtUsd)(n?.gldUsd),
               bg: "var(--gradient-gold)",
@@ -98,7 +98,7 @@
                               lineHeight: "var(--lh-body)",
                             },
                             children:
-                              "10% of collected gold fees settles here — the other 90% goes back to holders — and every $SCHIFFY fee is stacked here too, ready for new partners and liquidity support. He buried it on-chain. He remembers where.",
+                              "10% of collected WETH fees settles here — the other 90% goes back to holders — and every $SCHIFFY fee is stacked here too, ready for new partners and liquidity support. He buried it on-chain. He remembers where.",
                           }),
                           (0, s.jsx)("div", {
                             style: {
@@ -152,7 +152,7 @@
                     }),
                     (0, s.jsx)(a.Card, {
                       children: (0, s.jsx)(a.Stat, {
-                        label: "$GLD accumulated",
+                        label: "WETH accumulated",
                         value: (0, l.fmtNum)(n?.gld, 4),
                         tone: "gold",
                         size: t ? "sm" : "lg",
@@ -168,7 +168,7 @@
                     (0, s.jsx)(a.Card, {
                       tone: "cream",
                       children: (0, s.jsx)(a.Stat, {
-                        label: "$GLD distributed",
+                        label: "WETH distributed",
                         value: (0, l.fmtNum)(n?.gldToHolders, 4),
                         tone: "gold",
                         size: t ? "sm" : "lg",
@@ -414,7 +414,7 @@
                       },
                       children: (0, s.jsx)(l.Money, {
                         children:
-                          "Balances read straight from Robinhood Chain and refresh every minute. $SCHIFFY does not represent ownership of gold and holders cannot redeem vault assets.",
+                          "Balances read straight from Robinhood Chain and refresh every minute. $SCHIFFY does not represent ownership of WETH and holders cannot redeem vault assets.",
                       }),
                     }),
                   ],

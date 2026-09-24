@@ -1,0 +1,1666 @@
+--- 3500 ---
+            gap: var(--sp-4);
+--- 3501 ---
+            flex-wrap: nowrap;
+--- 3502 ---
+          "
+--- 3503 ---
+        >
+--- 3504 ---
+          <a
+--- 3505 ---
+            style="
+--- 3506 ---
+              text-decoration: none;
+--- 3507 ---
+              display: flex;
+--- 3508 ---
+              align-items: center;
+--- 3509 ---
+              gap: 10px;
+--- 3510 ---
+              flex: 0 0 auto;
+--- 3511 ---
+            "
+--- 3512 ---
+            href="/"
+--- 3513 ---
+            ><span style="display: inline-block; line-height: 0"
+--- 3514 ---
+              ><style>
+--- 3515 ---
+                @keyframes schiffy-wag {
+--- 3516 ---
+                  0%,
+--- 3517 ---
+                  100% {
+--- 3518 ---
+                    transform: rotate(-2deg);
+--- 3519 ---
+                  }
+--- 3520 ---
+                  50% {
+--- 3521 ---
+                    transform: rotate(2deg);
+--- 3522 ---
+                  }
+--- 3523 ---
+                }</style
+--- 3524 ---
+              ><img
+--- 3525 ---
+                src="/art/nav-icon.png"
+--- 3526 ---
+                alt="$SCHIFFY"
+--- 3527 ---
+                style="
+--- 3528 ---
+                  width: 44px;
+--- 3529 ---
+                  height: auto;
+--- 3530 ---
+                  display: block;
+--- 3531 ---
+                  transform-origin: 50% 85%;
+--- 3532 ---
+                  animation: none;
+--- 3533 ---
+                " /></span
+--- 3534 ---
+            ><span style="display: grid"
+--- 3535 ---
+              ><span
+--- 3536 ---
+                style="
+--- 3537 ---
+                  font-family: var(--font-display);
+--- 3538 ---
+                  font-size: 24px;
+--- 3539 ---
+                  line-height: 1;
+--- 3540 ---
+                  color: var(--ink-900);
+--- 3541 ---
+                "
+--- 3542 ---
+                ><span style="font-family: var(--font-body); font-weight: 900"
+--- 3543 ---
+                  >$</span
+--- 3544 ---
+                >SCHIFFY</span
+--- 3545 ---
+              ><span
+--- 3546 ---
+                style="
+--- 3547 ---
+                  font-size: 11px;
+--- 3548 ---
+                  font-weight: var(--fw-strong);
+--- 3549 ---
+                  color: var(--ink-500);
+--- 3550 ---
+                "
+--- 3551 ---
+                >Long gold</span
+--- 3552 ---
+              ></span
+--- 3553 ---
+            ></a
+--- 3554 ---
+          >
+--- 3555 ---
+          <nav
+--- 3556 ---
+            style="display: flex; gap: var(--sp-4); margin-left: var(--sp-3)"
+--- 3557 ---
+          >
+--- 3558 ---
+            <a
+--- 3559 ---
+              style="
+--- 3560 ---
+                text-decoration: none;
+--- 3680 ---
+              transform: translateY(0) rotate(0);
+--- 3681 ---
+            }
+--- 3682 ---
+            100% {
+--- 3683 ---
+              opacity: 1;
+--- 3684 ---
+              transform: translateY(0) rotate(0);
+--- 3685 ---
+            }
+--- 3686 ---
+          }
+--- 3687 ---
+          @keyframes sparklePop {
+--- 3688 ---
+            0%,
+--- 3689 ---
+            68% {
+--- 3690 ---
+              opacity: 0;
+--- 3691 ---
+              transform: scale(0.3);
+--- 3692 ---
+            }
+--- 3693 ---
+            80% {
+--- 3694 ---
+              opacity: 1;
+--- 3695 ---
+              transform: scale(1.15);
+--- 3696 ---
+            }
+--- 3697 ---
+            100% {
+--- 3698 ---
+              opacity: 0;
+--- 3699 ---
+              transform: scale(0.5);
+--- 3700 ---
+            }
+--- 3701 ---
+          }
+--- 3702 ---
+          @keyframes nodePulse {
+--- 3703 ---
+            0%,
+--- 3704 ---
+            100% {
+--- 3705 ---
+              transform: translate(-50%, -50%) scale(1);
+--- 3706 ---
+            }
+--- 3707 ---
+            50% {
+--- 3708 ---
+              transform: translate(-50%, -50%) scale(1.18);
+--- 3709 ---
+            }
+--- 3710 ---
+          }
+--- 3711 ---
+        </style>
+--- 3712 ---
+        <section
+--- 3713 ---
+          style="
+--- 3714 ---
+            background-image: var(--pattern-dot);
+--- 3715 ---
+            background-size: var(--pattern-dot-size);
+--- 3716 ---
+            background-color: var(--cream-100);
+--- 3717 ---
+            border-bottom: var(--outline);
+--- 3718 ---
+          "
+--- 3719 ---
+        >
+--- 3720 ---
+          <div
+--- 3721 ---
+            class="max"
+--- 3722 ---
+            style="
+--- 3723 ---
+              padding-top: var(--sp-8);
+--- 3724 ---
+              padding-bottom: var(--sp-8);
+--- 3725 ---
+              display: flex;
+--- 3726 ---
+              flex-direction: row;
+--- 3727 ---
+              align-items: center;
+--- 3728 ---
+              gap: var(--sp-7);
+--- 3729 ---
+            "
+--- 3730 ---
+          >
+--- 3731 ---
+            <div
+--- 3732 ---
+              style="flex: 1; min-width: 0; max-width: var(--container-narrow)"
+--- 3733 ---
+            >
+--- 3734 ---
+              <div
+--- 3735 ---
+                style="
+--- 3736 ---
+                  font-size: var(--fs-caption);
+--- 3737 ---
+                  font-weight: var(--fw-heavy);
+--- 3738 ---
+                  letter-spacing: var(--ls-caps);
+--- 3739 ---
+                  text-transform: uppercase;
+--- 3740 ---
+                  color: var(--ink-500);
+--- 3741 ---
+                  margin-bottom: var(--sp-3);
+--- 3742 ---
+                "
+--- 3743 ---
+              >
+--- 3744 ---
+                The mechanics
+--- 3745 ---
+              </div>
+--- 3746 ---
+              <h1
+--- 3747 ---
+                style="
+--- 3748 ---
+                  font-family: var(--font-display);
+--- 3749 ---
+                  line-height: var(--lh-display);
+--- 3750 ---
+                  color: var(--ink-900);
+--- 3751 ---
+                  margin: 0;
+--- 3752 ---
+                  font-size: var(--fs-display-l);
+--- 3753 ---
+                "
+--- 3754 ---
+              >
+--- 3755 ---
+                How it works
+--- 3756 ---
+              </h1>
+--- 3757 ---
+              <p
+--- 3758 ---
+                style="
+--- 3759 ---
+                  margin-top: var(--sp-4);
+--- 3760 ---
+                  font-size: var(--fs-body-l);
+--- 3761 ---
+                  line-height: var(--lh-body);
+--- 3762 ---
+                "
+--- 3763 ---
+              >
+--- 3764 ---
+                <span style="font-family: var(--font-body); font-weight: 900"
+--- 3765 ---
+                  >$</span
+--- 3766 ---
+                >SCHIFFY trades against tokenized
+--- 3767 ---
+                <span style="font-family: var(--font-body); font-weight: 900"
+--- 3768 ---
+                  >$</span
+--- 3769 ---
+                >GLD on Robinhood Chain, in a Uniswap v4 pool. Trading fees
+--- 3770 ---
+                accrue on both sides of the pair, and every fee the machine
+--- 3771 ---
+                collects splits the same way, every time. No promises, no
+--- 3772 ---
+                roadmap theatrics — just the split.
+--- 3773 ---
+              </p>
+--- 3774 ---
+            </div>
+--- 3775 ---
+            <span style="display: inline-block; line-height: 0"
+--- 3776 ---
+              ><style>
+--- 3777 ---
+                @keyframes schiffy-wag {
+--- 3778 ---
+                  0%,
+--- 3779 ---
+                  100% {
+--- 3780 ---
+                    transform: rotate(-2deg);
+--- 3781 ---
+                  }
+--- 3782 ---
+                  50% {
+--- 3783 ---
+                    transform: rotate(2deg);
+--- 3784 ---
+                  }
+--- 3785 ---
+                }</style
+--- 3786 ---
+              ><img
+--- 3787 ---
+                src="https://schiffy.gold/art/schiffy-mascot.png"
+--- 3788 ---
+                alt="$SCHIFFY, holding the bar"
+--- 3789 ---
+                style="
+--- 3790 ---
+                  width: 220px;
+--- 3791 ---
+                  height: auto;
+--- 3792 ---
+                  display: block;
+--- 3793 ---
+                  transform-origin: 50% 85%;
+--- 3794 ---
+                  animation: schiffy-wag 3s var(--ease-out) infinite;
+--- 3795 ---
+                "
+--- 3796 ---
+            /></span>
+--- 3797 ---
+          </div>
+--- 3798 ---
+        </section>
+--- 3799 ---
+        <section
+--- 3800 ---
+          class="max"
+--- 3801 ---
+          style="padding-top: var(--sp-8); padding-bottom: var(--sp-8)"
+--- 3802 ---
+        >
+--- 3803 ---
+          <div style="max-width: var(--container-narrow)">
+--- 3804 ---
+            <h2
+--- 3805 ---
+              style="
+--- 3806 ---
+                font-family: var(--font-display);
+--- 3807 ---
+                line-height: var(--lh-display);
+--- 3808 ---
+                color: var(--ink-900);
+--- 3809 ---
+                margin: 0;
+--- 3810 ---
+                font-size: var(--fs-display-l);
+--- 3811 ---
+              "
+--- 3812 ---
+            >
+--- 3813 ---
+              Where the fees go
+--- 3814 ---
+            </h2>
+--- 3815 ---
+            <p
+--- 3816 ---
+              style="
+--- 3817 ---
+                margin-top: var(--sp-4);
+--- 3818 ---
+                margin-bottom: 0;
+--- 3819 ---
+                font-size: var(--fs-body-l);
+--- 3820 ---
+                line-height: var(--lh-body);
+--- 3821 ---
+              "
+--- 3822 ---
+            >
+--- 3823 ---
+              Two currencies come in. SCHIFFY goes to the vault in full; GLD
+--- 3824 ---
+              splits 90/10, holders / vault. The collect crank is permissionless
+--- 3825 ---
+              — anyone triggers it, and the split settles on-chain
+--- 3826 ---
+              automatically. Holder rewards are then published from a verifiable
+--- 3827 ---
+              snapshot, and anyone can execute the claims.
+--- 3828 ---
+            </p>
+--- 3829 ---
+          </div>
+--- 3830 ---
+          <div class="grid-2" style="margin-top: var(--sp-6)">
+--- 3831 ---
+            <div
+--- 3832 ---
+              style="
+--- 3833 ---
+                background: var(--white);
+--- 3834 ---
+                color: var(--ink-900);
+--- 3835 ---
+                border: var(--outline);
+--- 3836 ---
+                border-radius: var(--r-lg);
+--- 3837 ---
+                padding: var(--sp-5);
+--- 3838 ---
+                box-shadow: var(--shadow-sticker);
+--- 3839 ---
+                transform: none;
+--- 3840 ---
+                transition: all var(--dur-base) var(--ease-boing);
+--- 3841 ---
+                font-family: var(--font-body);
+--- 3842 ---
+                display: flex;
+--- 3843 ---
+                flex-direction: column;
+--- 3844 ---
+              "
+--- 3845 ---
+            >
+--- 3846 ---
+              <div style="display: flex; align-items: center; gap: var(--sp-3)">
+--- 3847 ---
+                <span
+--- 3848 ---
+                  style="
+--- 3849 ---
+                    display: inline-flex;
+--- 3850 ---
+                    align-items: center;
+--- 3851 ---
+                    gap: 6px;
+--- 3852 ---
+                    background: var(--gold-300);
+--- 3853 ---
+                    color: var(--ink-900);
+--- 3854 ---
+                    border: var(--outline);
+--- 3855 ---
+                    border-radius: var(--r-pill);
+--- 3856 ---
+                    padding: 4px 12px;
+--- 3857 ---
+                    font-family: var(--font-body);
+--- 3858 ---
+                    font-weight: var(--fw-heavy);
+--- 3859 ---
+                    font-size: var(--fs-caption);
+--- 3860 ---
+                    letter-spacing: var(--ls-caps);
+--- 3861 ---
+                    text-transform: uppercase;
+--- 3862 ---
+                    line-height: 1.6;
+--- 3863 ---
+                  "
+--- 3864 ---
+                  >The gold side</span
+--- 3865 ---
+                ><span style="font-size: var(--fs-small); color: var(--ink-500)"
+--- 3866 ---
+                  >fees collected in
+--- 3867 ---
+                  <!-- -->$GLD</span
+--- 3868 ---
+                >
+--- 3869 ---
+                <div style="flex: 1"></div>
+--- 3870 ---
+                <span
+--- 3871 ---
+                  style="
+--- 3872 ---
+                    font-family: var(--font-mono);
+--- 3873 ---
+                    font-size: var(--fs-small);
+--- 3874 ---
+                  "
+--- 3875 ---
+                  >90 / 10</span
+--- 3876 ---
+                >
+--- 3877 ---
+              </div>
+--- 3878 ---
+              <div style="margin-top: var(--sp-4); text-align: center">
+--- 3879 ---
+                <span
+--- 3880 ---
+                  style="
+--- 3881 ---
+                    display: inline-block;
+--- 3882 ---
+                    background: var(--ink-900);
+--- 3883 ---
+                    color: var(--cream-100);
+--- 3884 ---
+                    border-radius: var(--r-pill);
+--- 3885 ---
+                    padding: 6px 18px;
+--- 3886 ---
+                    font-size: var(--fs-caption);
+--- 3887 ---
+                    font-weight: var(--fw-heavy);
+--- 3888 ---
+                    letter-spacing: var(--ls-caps);
+--- 3889 ---
+                    text-transform: uppercase;
+--- 3890 ---
+                  "
+--- 3891 ---
+                  >Trades come in</span
+--- 3892 ---
+                >
+--- 3893 ---
+              </div>
+--- 3894 ---
+              <div
+--- 3895 ---
+                style="
+--- 3896 ---
+                  position: relative;
+--- 3897 ---
+                  height: 76px;
+--- 3898 ---
+                  margin: var(--sp-2) 0 -2px;
+--- 3899 ---
+                "
+--- 3900 ---
+              >
+--- 3901 ---
+                <div
+--- 3902 ---
+                  style="
+--- 3903 ---
+                    position: absolute;
+--- 3904 ---
+                    left: 50%;
+--- 3905 ---
+                    transform: translateX(-50%);
+--- 3906 ---
+                    top: 0;
+--- 3907 ---
+                    height: 28px;
+--- 3908 ---
+                    width: 12px;
+--- 3909 ---
+                    background: repeating-linear-gradient(
+--- 3910 ---
+                      180deg,
+--- 3911 ---
+                      var(--gold-400) 0 8px,
+--- 3912 ---
+                      var(--cream-200) 8px 16px
+--- 3913 ---
+                    );
+--- 3914 ---
+                    background-size: 100% 16px;
+--- 3915 ---
+                    border-left: 2px solid var(--ink-900);
+--- 3916 ---
+                    border-right: 2px solid var(--ink-900);
+--- 3917 ---
+                    animation: pipeY 1.1s linear infinite;
+--- 3918 ---
+                  "
+--- 3919 ---
+                ></div>
+--- 3920 ---
+                <div
+--- 3921 ---
+                  style="
+--- 3922 ---
+                    position: absolute;
+--- 3923 ---
+                    left: 25%;
+--- 3924 ---
+                    width: 25%;
+--- 3925 ---
+                    top: 28px;
+--- 3926 ---
+                    height: 12px;
+--- 3927 ---
+                    background: repeating-linear-gradient(
+--- 3928 ---
+                      90deg,
+--- 3929 ---
+                      var(--gold-400) 0 8px,
+--- 3930 ---
+                      var(--cream-200) 8px 16px
+--- 3931 ---
+                    );
+--- 3932 ---
+                    background-size: 16px 100%;
+--- 3933 ---
+                    border-top: 2px solid var(--ink-900);
+--- 3934 ---
+                    border-bottom: 2px solid var(--ink-900);
+--- 3935 ---
+                    animation: pipeX 1.1s linear infinite;
+--- 3936 ---
+                    animation-direction: reverse;
+--- 3937 ---
+                  "
+--- 3938 ---
+                ></div>
+--- 3939 ---
+                <div
+--- 3940 ---
+                  style="
+--- 3941 ---
+                    position: absolute;
+--- 3942 ---
+                    left: 50%;
+--- 3943 ---
+                    width: 25%;
+--- 3944 ---
+                    top: 28px;
+--- 3945 ---
+                    height: 12px;
+--- 3946 ---
+                    background: repeating-linear-gradient(
+--- 3947 ---
+                      90deg,
+--- 3948 ---
+                      var(--gold-400) 0 8px,
+--- 3949 ---
+                      var(--cream-200) 8px 16px
+--- 3950 ---
+                    );
+--- 4300 ---
+                <div
+--- 4301 ---
+                  style="
+--- 4302 ---
+                    position: relative;
+--- 4303 ---
+                    overflow: hidden;
+--- 4304 ---
+                    display: flex;
+--- 4305 ---
+                    flex-direction: column;
+--- 4306 ---
+                    background: var(--cream-200);
+--- 4307 ---
+                    border: var(--outline);
+--- 4308 ---
+                    border-radius: var(--r-md);
+--- 4309 ---
+                    padding: var(--sp-4);
+--- 4310 ---
+                  "
+--- 4311 ---
+                >
+--- 4312 ---
+                  <div
+--- 4313 ---
+                    style="
+--- 4314 ---
+                      font-family: var(--font-mono);
+--- 4315 ---
+                      font-size: var(--fs-title);
+--- 4316 ---
+                      line-height: 1;
+--- 4317 ---
+                      color: var(--ink-900);
+--- 4318 ---
+                    "
+--- 4319 ---
+                  >
+--- 4320 ---
+                    100%
+--- 4321 ---
+                  </div>
+--- 4322 ---
+                  <div
+--- 4323 ---
+                    style="
+--- 4324 ---
+                      font-weight: var(--fw-heavy);
+--- 4325 ---
+                      font-size: var(--fs-body);
+--- 4326 ---
+                      margin-top: var(--sp-3);
+--- 4327 ---
+                    "
+--- 4328 ---
+                  >
+--- 4329 ---
+                    Stacked in the vault
+--- 4330 ---
+                  </div>
+--- 4331 ---
+                  <div
+--- 4332 ---
+                    style="
+--- 4333 ---
+                      font-size: var(--fs-small);
+--- 4334 ---
+                      color: var(--ink-500);
+--- 4335 ---
+                      margin-top: 2px;
+--- 4336 ---
+                      line-height: var(--lh-body);
+--- 4337 ---
+                    "
+--- 4338 ---
+                  >
+--- 4339 ---
+                    Every $SCHIFFY fee is held in the vault — ammo for new
+--- 4340 ---
+                    partners and liquidity support, not dumped on the market
+--- 4341 ---
+                  </div>
+--- 4342 ---
+                  <div
+--- 4343 ---
+                    style="
+--- 4344 ---
+                      font-family: var(--font-mono);
+--- 4345 ---
+                      font-size: var(--fs-heading);
+--- 4346 ---
+                      font-weight: var(--fw-heavy);
+--- 4347 ---
+                      line-height: var(--lh-title);
+--- 4348 ---
+                      color: var(--ink-900);
+--- 4349 ---
+                      margin-top: auto;
+--- 4350 ---
+                      padding-top: var(--sp-3);
+--- 4351 ---
+                    "
+--- 4352 ---
+                  >
+--- 4353 ---
+                    goes live with the contract
+--- 4354 ---
+                  </div>
+--- 4355 ---
+                </div>
+--- 4356 ---
+              </div>
+--- 4357 ---
+            </div>
+--- 4358 ---
+          </div>
+--- 4359 ---
+          <div
+--- 4360 ---
+            style="
+--- 4361 ---
+              background: var(--ink-900);
+--- 4362 ---
+              color: var(--cream-100);
+--- 4363 ---
+              border: var(--outline);
+--- 4364 ---
+              border-radius: var(--r-lg);
+--- 4365 ---
+              padding: var(--sp-5);
+--- 4366 ---
+              box-shadow: var(--shadow-sticker);
+--- 4367 ---
+              transform: none;
+--- 4368 ---
+              transition: all var(--dur-base) var(--ease-boing);
+--- 4369 ---
+              font-family: var(--font-body);
+--- 4370 ---
+              margin-top: var(--sp-4);
+--- 4371 ---
+            "
+--- 4372 ---
+          >
+--- 4373 ---
+            <div
+--- 4374 ---
+              style="
+--- 4375 ---
+                display: flex;
+--- 4376 ---
+                align-items: center;
+--- 4377 ---
+                gap: var(--sp-6);
+--- 4378 ---
+                flex-wrap: wrap;
+--- 4379 ---
+              "
+--- 4380 ---
+            >
+--- 4381 ---
+              <div style="flex: 1; min-width: 280px">
+--- 4382 ---
+                <div
+--- 4383 ---
+                  style="
+--- 4384 ---
+                    font-size: var(--fs-caption);
+--- 4385 ---
+                    font-weight: var(--fw-heavy);
+--- 4386 ---
+                    letter-spacing: var(--ls-caps);
+--- 4387 ---
+                    text-transform: uppercase;
+--- 4388 ---
+                    color: var(--cream-300);
+--- 4389 ---
+                    margin-bottom: var(--sp-3);
+--- 4390 ---
+                  "
+--- 4391 ---
+                >
+--- 4392 ---
+                  Net effect
+--- 4393 ---
+                </div>
+--- 4394 ---
+                <div
+--- 4395 ---
+                  style="
+--- 4396 ---
+                    font-family: var(--font-body);
+--- 4397 ---
+                    font-weight: var(--fw-heavy);
+--- 4398 ---
+                    font-size: var(--fs-title);
+--- 4399 ---
+                    line-height: var(--lh-title);
+--- 4400 ---
+                  "
+--- 4401 ---
+                >
+--- 4402 ---
+                  <span
+--- 4403 ---
+                    style="
+--- 4404 ---
+                      font-family: var(--font-mono);
+--- 4405 ---
+                      color: var(--blush-300);
+--- 4406 ---
+                    "
+--- 4407 ---
+                    >100%</span
+--- 4408 ---
+                  >
+--- 4409 ---
+                  of $SCHIFFY to the vault.
+--- 4410 ---
+                  <span
+--- 4411 ---
+                    style="
+--- 4412 ---
+                      font-family: var(--font-mono);
+--- 4413 ---
+                      color: var(--gold-300);
+--- 4414 ---
+                    "
+--- 4415 ---
+                    >90%</span
+--- 4416 ---
+                  >
+--- 4417 ---
+                  of gold to holders,
+--- 4418 ---
+                  <span style="font-family: var(--font-mono)">10%</span> to the
+--- 4419 ---
+                  vault.
+--- 4420 ---
+                </div>
+--- 4421 ---
+                <div
+--- 4422 ---
+                  style="
+--- 4423 ---
+                    margin-top: var(--sp-3);
+--- 4424 ---
+                    font-size: var(--fs-small);
+--- 4425 ---
+                    color: var(--cream-300);
+--- 4426 ---
+                    line-height: var(--lh-body);
+--- 4427 ---
+                    max-width: 460px;
+--- 4428 ---
+                  "
+--- 4429 ---
+                >
+--- 4430 ---
+                  Gold pays out and the vault fills on both sides. Volume is the
+--- 4431 ---
+                  engine. The split runs on-chain, not on trust.
+--- 4432 ---
+                </div>
+--- 4433 ---
+              </div>
+--- 4434 ---
+              <div
+--- 4435 ---
+                style="
+--- 4436 ---
+                  position: relative;
+--- 4437 ---
+                  display: flex;
+--- 4438 ---
+                  flex-wrap: wrap-reverse;
+--- 4439 ---
+                  gap: 5px;
+--- 4440 ---
+                  width: 206px;
+--- 4441 ---
+                  align-content: flex-start;
+--- 4442 ---
+                "
+--- 4443 ---
+              >
+--- 4444 ---
+                <span
+--- 4445 ---
+                  style="
+--- 4446 ---
+                    width: 46px;
+--- 4447 ---
+                    height: 17px;
+--- 4448 ---
+                    border-radius: 4px;
+--- 4449 ---
+                    background: var(--gradient-gold);
+--- 4450 ---
+                    border: 2px solid var(--ink-900);
+--- 4451 ---
+                    box-shadow: var(--shadow-inner-gold);
+--- 4452 ---
+                    animation: barIn 5s var(--ease-boing) 0s infinite;
+--- 4453 ---
+                  "
+--- 4454 ---
+                ></span
+--- 4455 ---
+                ><span
+--- 4456 ---
+                  style="
+--- 4457 ---
+                    width: 46px;
+--- 4458 ---
+                    height: 17px;
+--- 4459 ---
+                    border-radius: 4px;
+--- 4460 ---
+                    background: var(--gradient-gold);
+--- 4461 ---
+                    border: 2px solid var(--ink-900);
+--- 4462 ---
+                    box-shadow: var(--shadow-inner-gold);
+--- 4463 ---
+                    animation: barIn 5s var(--ease-boing) 0.38s infinite;
+--- 4464 ---
+                  "
+--- 4465 ---
+                ></span
+--- 4466 ---
+                ><span
+--- 4467 ---
+                  style="
+--- 4468 ---
+                    width: 46px;
+--- 4469 ---
+                    height: 17px;
+--- 4470 ---
+                    border-radius: 4px;
+--- 4471 ---
+                    background: var(--gradient-gold);
+--- 4472 ---
+                    border: 2px solid var(--ink-900);
+--- 4473 ---
+                    box-shadow: var(--shadow-inner-gold);
+--- 4474 ---
+                    animation: barIn 5s var(--ease-boing) 0.76s infinite;
+--- 4475 ---
+                  "
+--- 4476 ---
+                ></span
+--- 4477 ---
+                ><span
+--- 4478 ---
+                  style="
+--- 4479 ---
+                    width: 46px;
+--- 4480 ---
+                    height: 17px;
+--- 4481 ---
+                    border-radius: 4px;
+--- 4482 ---
+                    background: var(--gradient-gold);
+--- 4483 ---
+                    border: 2px solid var(--ink-900);
+--- 4484 ---
+                    box-shadow: var(--shadow-inner-gold);
+--- 4485 ---
+                    animation: barIn 5s var(--ease-boing) 1.1400000000000001s
+--- 4486 ---
+                      infinite;
+--- 4487 ---
+                  "
+--- 4488 ---
+                ></span
+--- 4489 ---
+                ><span
+--- 4490 ---
+                  style="
+--- 4491 ---
+                    width: 46px;
+--- 4492 ---
+                    height: 17px;
+--- 4493 ---
+                    border-radius: 4px;
+--- 4494 ---
+                    background: var(--gradient-gold);
+--- 4495 ---
+                    border: 2px solid var(--ink-900);
+--- 4496 ---
+                    box-shadow: var(--shadow-inner-gold);
+--- 4497 ---
+                    animation: barIn 5s var(--ease-boing) 1.52s infinite;
+--- 4498 ---
+                  "
+--- 4499 ---
+                ></span
+--- 4500 ---
+                ><span
+--- 4501 ---
+                  style="
+--- 4502 ---
+                    width: 46px;
+--- 4503 ---
+                    height: 17px;
+--- 4504 ---
+                    border-radius: 4px;
+--- 4505 ---
+                    background: var(--gradient-gold);
+--- 4506 ---
+                    border: 2px solid var(--ink-900);
+--- 4507 ---
+                    box-shadow: var(--shadow-inner-gold);
+--- 4508 ---
+                    animation: barIn 5s var(--ease-boing) 1.9s infinite;
+--- 4509 ---
+                  "
+--- 4510 ---
+                ></span
+--- 4511 ---
+                ><span
+--- 4512 ---
+                  style="
+--- 4513 ---
+                    width: 46px;
+--- 4514 ---
+                    height: 17px;
+--- 4515 ---
+                    border-radius: 4px;
+--- 4516 ---
+                    background: var(--gradient-gold);
+--- 4517 ---
+                    border: 2px solid var(--ink-900);
+--- 4518 ---
+                    box-shadow: var(--shadow-inner-gold);
+--- 4519 ---
+                    animation: barIn 5s var(--ease-boing) 2.2800000000000002s
+--- 4520 ---
+                      infinite;
+--- 4521 ---
+                  "
+--- 4522 ---
+                ></span
+--- 4523 ---
+                ><span
+--- 4524 ---
+                  style="
+--- 4525 ---
+                    width: 46px;
+--- 4526 ---
+                    height: 17px;
+--- 4527 ---
+                    border-radius: 4px;
+--- 4528 ---
+                    background: var(--gradient-gold);
+--- 4529 ---
+                    border: 2px solid var(--ink-900);
+--- 4530 ---
+                    box-shadow: var(--shadow-inner-gold);
+--- 4531 ---
+                    animation: barIn 5s var(--ease-boing) 2.66s infinite;
+--- 4532 ---
+                  "
+--- 4533 ---
+                ></span
+--- 4534 ---
+                ><span
+--- 4535 ---
+                  style="
+--- 4536 ---
+                    width: 46px;
+--- 4537 ---
+                    height: 17px;
+--- 4538 ---
+                    border-radius: 4px;
+--- 4539 ---
+                    background: var(--gradient-gold);
+--- 4540 ---
+                    border: 2px solid var(--ink-900);
+--- 4541 ---
+                    box-shadow: var(--shadow-inner-gold);
+--- 4542 ---
+                    animation: barIn 5s var(--ease-boing) 3.04s infinite;
+--- 4543 ---
+                  "
+--- 4544 ---
+                ></span
+--- 4545 ---
+                ><span
+--- 4546 ---
+                  style="
+--- 4547 ---
+                    width: 46px;
+--- 4548 ---
+                    height: 17px;
+--- 4549 ---
+                    border-radius: 4px;
+--- 4550 ---
+                    background: var(--gradient-gold);
+--- 4551 ---
+                    border: 2px solid var(--ink-900);
+--- 4552 ---
+                    box-shadow: var(--shadow-inner-gold);
+--- 4553 ---
+                    animation: barIn 5s var(--ease-boing) 3.42s infinite;
+--- 4554 ---
+                  "
+--- 4555 ---
+                ></span
+--- 4556 ---
+                ><span
+--- 4557 ---
+                  style="
+--- 4558 ---
+                    width: 46px;
+--- 4559 ---
+                    height: 17px;
+--- 4560 ---
+                    border-radius: 4px;
+--- 4561 ---
+                    background: var(--gradient-gold);
+--- 4562 ---
+                    border: 2px solid var(--ink-900);
+--- 4563 ---
+                    box-shadow: var(--shadow-inner-gold);
+--- 4564 ---
+                    animation: barIn 5s var(--ease-boing) 3.8s infinite;
+--- 4565 ---
+                  "
+--- 4566 ---
+                ></span
+--- 4567 ---
+                ><span
+--- 4568 ---
+                  style="
+--- 4569 ---
+                    width: 46px;
+--- 4570 ---
+                    height: 17px;
+--- 4571 ---
+                    border-radius: 4px;
+--- 4572 ---
+                    background: var(--gradient-gold);
+--- 4573 ---
+                    border: 2px solid var(--ink-900);
+--- 4574 ---
+                    box-shadow: var(--shadow-inner-gold);
+--- 4575 ---
+                    animation: barIn 5s var(--ease-boing) 4.18s infinite;
+--- 4576 ---
+                  "
+--- 4577 ---
+                ></span
+--- 4578 ---
+                ><span
+--- 4579 ---
+                  style="
+--- 4580 ---
+                    position: absolute;
+--- 4581 ---
+                    left: 14px;
+--- 4582 ---
+                    top: -16px;
+--- 4583 ---
+                    font-size: 19px;
+--- 4584 ---
+                    color: var(--gold-200);
+--- 4585 ---
+                    animation: sparklePop 3.2s var(--ease-out) 0s infinite;
+--- 4586 ---
+                  "
+--- 4587 ---
+                  >✦</span
+--- 4588 ---
+                ><span
+--- 4589 ---
+                  style="
+--- 4590 ---
+                    position: absolute;
+--- 4591 ---
+                    left: 120px;
+--- 4592 ---
+                    top: -20px;
+--- 4593 ---
+                    font-size: 19px;
+--- 4594 ---
+                    color: var(--gold-200);
+--- 4595 ---
+                    animation: sparklePop 3.2s var(--ease-out) 1.6s infinite;
+--- 4596 ---
+                  "
+--- 4597 ---
+                  >✦</span
+--- 4598 ---
+                >
+--- 4599 ---
+              </div>
+--- 4600 ---
+            </div>
+--- 4601 ---
+          </div>
+--- 4602 ---
+        </section>
+--- 4603 ---
+        <section class="max" style="padding-bottom: var(--sp-9)">
+--- 4604 ---
+          <div style="max-width: var(--container-narrow)">
+--- 4605 ---
+            <h2
+--- 4606 ---
+              style="
+--- 4607 ---
+                font-family: var(--font-display);
+--- 4608 ---
+                line-height: var(--lh-display);
+--- 4609 ---
+                color: var(--ink-900);
+--- 4610 ---
+                margin: 0;
+--- 4611 ---
+                font-size: var(--fs-display-l);
+--- 4612 ---
+              "
+--- 4613 ---
+            >
+--- 4614 ---
+              Contracts
+--- 4615 ---
+            </h2>
+--- 4616 ---
+            <p
+--- 4617 ---
+              style="
+--- 4618 ---
+                margin-top: var(--sp-4);
+--- 4619 ---
+                margin-bottom: 0;
+--- 4620 ---
+                font-size: var(--fs-body-l);
+--- 4621 ---
+                line-height: var(--lh-body);
+--- 4622 ---
+              "
+--- 4623 ---
+            >
+--- 4624 ---
+              Verify before you trade. Always check the address.
+--- 4625 ---
+            </p>
+--- 4626 ---
+          </div>
+--- 4627 ---
+          <div
+--- 4628 ---
+            style="
+--- 4629 ---
+              display: flex;
+--- 4630 ---
+              flex-wrap: wrap;
+--- 4631 ---
+              gap: var(--sp-3);
+--- 4632 ---
+              margin-top: var(--sp-5);
+--- 4633 ---
+            "
+--- 4634 ---
+          >
+--- 4635 ---
+            <div
+--- 4636 ---
+              style="
+--- 4637 ---
+                display: flex;
+--- 4638 ---
+                align-items: center;
+--- 4639 ---
+                gap: var(--sp-3);
+--- 4640 ---
+                background: var(--white);
+--- 4641 ---
+                border: var(--outline);
+--- 4642 ---
+                border-radius: var(--r-pill);
+--- 4643 ---
+                padding: 6px 6px 6px 16px;
+--- 4644 ---
+                box-shadow: var(--shadow-sticker);
+--- 4645 ---
+                flex-wrap: wrap;
+--- 4646 ---
+                max-width: 100%;
+--- 4647 ---
+              "
+--- 4648 ---
+            >
+--- 4649 ---
+              <span
+--- 4650 ---
+                style="
+--- 4651 ---
+                  font-size: var(--fs-caption);
+--- 4652 ---
+                  font-weight: var(--fw-heavy);
+--- 4653 ---
+                  letter-spacing: var(--ls-caps);
+--- 4654 ---
+                  text-transform: uppercase;
+--- 4655 ---
+                  color: var(--ink-900);
+--- 4656 ---
+                "
+--- 4657 ---
+                >$SCHIFFY</span
+--- 4658 ---
+              ><span style="font-size: var(--fs-small); color: var(--ink-500)"
+--- 4659 ---
+                >Token</span
+--- 4660 ---
+              ><code
+--- 4661 ---
+                style="
+--- 4662 ---
+                  font-family: var(--font-mono);
+--- 4663 ---
+                  font-size: var(--fs-small);
+--- 4664 ---
+                  color: var(--ink-900);
+--- 4665 ---
+                "
+--- 4666 ---
+                >0x3c934eee3fd33be89d0c0a5d073dcf2ea3b3dc26</code
+--- 4667 ---
+              ><button
+--- 4668 ---
+                disabled=""
+--- 4669 ---
+                style="
+--- 4670 ---
+                  all: unset;
+--- 4671 ---
+                  cursor: not-allowed;
+--- 4672 ---
+                  display: flex;
+--- 4673 ---
+                  align-items: center;
+--- 4674 ---
+                  gap: 6px;
+--- 4675 ---
+                  background: var(--cream-200);
+--- 4676 ---
+                  border: 2px solid var(--ink-900);
+--- 4677 ---
+                  border-radius: var(--r-pill);
+--- 4678 ---
+                  padding: 4px 12px;
+--- 4679 ---
+                  font-size: var(--fs-caption);
+--- 4680 ---
+                  font-weight: var(--fw-heavy);
+--- 4681 ---
+                "
+--- 4682 ---
+              >
+--- 4683 ---
+                <span
+--- 4684 ---
+                  aria-hidden="true"
+--- 4685 ---
+                  style="
+--- 4686 ---
+                    display: inline-block;
+--- 4687 ---
+                    width: 13px;
+--- 4688 ---
+                    height: 13px;
+--- 4689 ---
+                    flex: 0 0 auto;
+--- 4690 ---
+                    background: var(--ink-900);
+--- 4691 ---
+                    -webkit-mask-image: url('https://unpkg.com/lucide-static@0.428.0/icons/copy.svg');
+--- 4692 ---
+                    mask-image: url('https://unpkg.com/lucide-static@0.428.0/icons/copy.svg');
+--- 4693 ---
+                    -webkit-mask-repeat: no-repeat;
+--- 4694 ---
+                    mask-repeat: no-repeat;
+--- 4695 ---
+                    -webkit-mask-size: contain;
+--- 4696 ---
+                    mask-size: contain;
+--- 4697 ---
+                    -webkit-mask-position: center;
+--- 4698 ---
+                    mask-position: center;
+--- 4699 ---
+                  "
+--- 4700 ---
+                ></span
+--- 4701 ---
+                >Copy
+--- 4702 ---
+              </button>
+--- 4703 ---
+            </div>
+--- 4704 ---
+            <div
+--- 4705 ---
+              style="
+--- 4706 ---
+                display: flex;
+--- 4707 ---
+                align-items: center;
+--- 4708 ---
+                gap: var(--sp-3);
+--- 4709 ---
+                background: var(--white);
+--- 4710 ---
+                border: var(--outline);
+--- 4711 ---
+                border-radius: var(--r-pill);
+--- 4712 ---
+                padding: 6px 6px 6px 16px;
+--- 4713 ---
+                box-shadow: var(--shadow-sticker);
+--- 4714 ---
+                flex-wrap: wrap;
+--- 4715 ---
+                max-width: 100%;
+--- 4716 ---
+              "
+--- 4717 ---
+            >
+--- 4718 ---
+              <span
+--- 4719 ---
+                style="
+--- 4720 ---
+                  font-size: var(--fs-caption);
+--- 4721 ---
+                  font-weight: var(--fw-heavy);
+--- 4722 ---
+                  letter-spacing: var(--ls-caps);
+--- 4723 ---
+                  text-transform: uppercase;
+--- 4724 ---
+                  color: var(--ink-900);
+--- 4725 ---
+                "
+--- 4726 ---
+                >$GLD</span
+--- 4727 ---
+              ><span style="font-size: var(--fs-small); color: var(--ink-500)"
+--- 4728 ---
+                >Tokenized gold</span
+--- 4729 ---
+              ><code
+--- 4730 ---
+                style="
+--- 4731 ---
+                  font-family: var(--font-mono);
+--- 4732 ---
+                  font-size: var(--fs-small);
+--- 4733 ---
+                  color: var(--ink-900);
+--- 4734 ---
+                "
+--- 4735 ---
+                >0x3c934eee3fd33be89d0c0a5d073dcf2ea3b3dc26</code
+--- 4736 ---
+              ><button
+--- 4737 ---
+                disabled=""
+--- 4738 ---
+                style="
+--- 4739 ---
+                  all: unset;
+--- 4740 ---
+                  cursor: not-allowed;
+--- 4741 ---
+                  display: flex;
+--- 4742 ---
+                  align-items: center;
+--- 4743 ---
+                  gap: 6px;
+--- 4744 ---
+                  background: var(--cream-200);
+--- 4745 ---
+                  border: 2px solid var(--ink-900);
+--- 4746 ---
+                  border-radius: var(--r-pill);
+--- 4747 ---
+                  padding: 4px 12px;
+--- 4748 ---
+                  font-size: var(--fs-caption);
+--- 4749 ---
+                  font-weight: var(--fw-heavy);
+--- 4750 ---
+                "
+--- 4751 ---
+              >
+--- 4752 ---
+                <span
+--- 4753 ---
+                  aria-hidden="true"
+--- 4754 ---
+                  style="
+--- 4755 ---
+                    display: inline-block;
+--- 4756 ---
+                    width: 13px;
+--- 4757 ---
+                    height: 13px;
+--- 4758 ---
+                    flex: 0 0 auto;
+--- 4759 ---
+                    background: var(--ink-900);
+--- 4760 ---
+                    -webkit-mask-image: url('https://unpkg.com/lucide-static@0.428.0/icons/copy.svg');
+--- 4761 ---
+                    mask-image: url('https://unpkg.com/lucide-static@0.428.0/icons/copy.svg');
+--- 4762 ---
+                    -webkit-mask-repeat: no-repeat;
+--- 4763 ---
+                    mask-repeat: no-repeat;
+--- 4764 ---
+                    -webkit-mask-size: contain;
+--- 4765 ---
+                    mask-size: contain;
+--- 4766 ---
+                    -webkit-mask-position: center;
+--- 4767 ---
+                    mask-position: center;
+--- 4768 ---
+                  "
+--- 4769 ---
+                ></span
+--- 4770 ---
+                >Copy
+--- 4771 ---
+              </button>
+--- 4772 ---
+            </div>
+--- 4773 ---
+          </div>
+--- 4774 ---
+        </section>
+--- 4775 ---
+        <section
+--- 4776 ---
+          style="
+--- 4777 ---
+            background: var(--gradient-gold);
+--- 4778 ---
+            border-top: var(--outline);
+--- 4779 ---
+            border-bottom: var(--outline);
+--- 4780 ---
+          "
+--- 4781 ---
+        >
+--- 4782 ---
+          <div
+--- 4783 ---
+            class="max"
+--- 4784 ---
+            style="
+--- 4785 ---
+              padding: var(--sp-8) var(--sp-5);
+--- 4786 ---
+              display: flex;
+--- 4787 ---
+              flex-direction: row;
+--- 4788 ---
+              align-items: center;
+--- 4789 ---
+              justify-content: center;
+--- 4790 ---
+              gap: var(--sp-7);
+--- 4791 ---
+              text-align: left;
+--- 4792 ---
+              flex-wrap: wrap;
+--- 4793 ---
+            "
+--- 4794 ---
+          >
+--- 4795 ---
+            <span style="display: inline-block; line-height: 0"
+--- 4796 ---
+              ><style>
+--- 4797 ---
+                @keyframes schiffy-wag {
+--- 4798 ---
+                  0%,
+--- 4799 ---
+                  100% {
+--- 4800 ---
+                    transform: rotate(-2deg);

@@ -1,0 +1,59 @@
+vault/index.html [Tokenized gold] #1: ding:14px 0;color:var(--ink-500);font-size:var(--fs-small)">Tokenized gold — the vault&#x27;s 10% of collected fees</td><td style="padding:14px 0;text-align:right;f
+  count Tokenized gold in vault: 1
+vault/index.html [tokenized] #1: oesn&#x27;t fetch — he accumulates. $SCHIFFY trades against tokenized $GLD on Robinhood Chain; every trade stacks $SCHIFFY in the vault and pays gold back to h
+vault/index.html [tokenized] #2: oesn&#x27;t fetch — he accumulates. $SCHIFFY trades against tokenized $GLD on Robinhood Chain; every trade stacks $SCHIFFY in the vault and pays gold back to h
+vault/index.html [tokenized] #3: oesn&#x27;t fetch — he accumulates. $SCHIFFY trades against tokenized $GLD on Robinhood Chain; every trade stacks $SCHIFFY in the vault and pays gold back to h
+  count tokenized in vault: 7
+vault/index.html [Long gold] #1: ize:11px;font-weight:var(--fw-strong);color:var(--ink-500)">Long gold</span></span></a><nav style="display:flex;gap:var(--sp-4);margin-left:var(--sp-3)"><a sty
+  count Long gold in vault: 1
+vault/index.html [gold fees] #1: r(--fs-body-l);line-height:var(--lh-body)">10% of collected gold fees settles here — the other 90% goes back to holders — and every $SCHIFFY fee is stacked her
+  count gold fees in vault: 1
+vault/index.html [ownership of gold] #1: t-body);font-weight:900">$</span>SCHIFFY does not represent ownership of gold and holders cannot redeem vault assets.</p></div></section><section style="background:var
+vault/index.html [ownership of gold] #2: th tokenized $GLD on Robinhood Chain. It does not represent ownership of gold, and holders cannot redeem assets from the treasury. Not an investment product, not finan
+  count ownership of gold in vault: 2
+how/index.html [Tokenized gold] #1:                   "\n                  >\n                    Tokenized gold, claimable on-chain by $SCHIFFY holders\n                  </div>\n                </div>\n 
+how/index.html [Tokenized gold] #2: e: var(--fs-small); color: var(--ink-500)"\n                >Tokenized gold</span\n              ><code\n                style="\n                  font-family: var(--f
+  count Tokenized gold in how: 2
+how/index.html [tokenized] #1: oesn&#x27;t fetch — he accumulates. $SCHIFFY trades against tokenized $GLD on Robinhood Chain; every trade stacks $SCHIFFY in the vault and pays gold back to h
+how/index.html [tokenized] #2: oesn&#x27;t fetch — he accumulates. $SCHIFFY trades against tokenized $GLD on Robinhood Chain; every trade stacks $SCHIFFY in the vault and pays gold back to h
+how/index.html [tokenized] #3: oesn&#x27;t fetch — he accumulates. $SCHIFFY trades against tokenized $GLD on Robinhood Chain; every trade stacks $SCHIFFY in the vault and pays gold back to h
+  count tokenized in how: 8
+how/index.html [Long gold] #1:   color: var(--ink-500);\n                "\n                >Long gold</span\n              ></span\n            ></a\n          >\n          <nav\n            style
+  count Long gold in how: 1
+how/index.html [The gold side] #1:    line-height: 1.6;\n                  "\n                  >The gold side</span\n                ><span style="font-size: var(--fs-small); color: var(--ink-500)"\n  
+  count The gold side in how: 1
+how/index.html [of gold to holders] #1:            >90%</span\n                  >\n                  of gold to holders,\n                  <span style="font-family: var(--font-mono)">10%</span> to the\n        
+  count of gold to holders in how: 1
+how/index.html [Gold pays] #1: px;\n                  "\n                >\n                  Gold pays out and the vault fills on both sides. Volume is the\n                  engine. The split 
+  count Gold pays in how: 1
+how/index.html [ownership of gold] #1: th tokenized $GLD on Robinhood Chain. It does not represent ownership of gold, and holders cannot redeem assets from the treasury. Not an investment product, not finan
+  count ownership of gold in how: 1
+memes/index.html [tokenized] #1: oesn&#x27;t fetch — he accumulates. $SCHIFFY trades against tokenized $GLD on Robinhood Chain; every trade stacks $SCHIFFY in the vault and pays gold back to h
+memes/index.html [tokenized] #2: oesn&#x27;t fetch — he accumulates. $SCHIFFY trades against tokenized $GLD on Robinhood Chain; every trade stacks $SCHIFFY in the vault and pays gold back to h
+memes/index.html [tokenized] #3: oesn&#x27;t fetch — he accumulates. $SCHIFFY trades against tokenized $GLD on Robinhood Chain; every trade stacks $SCHIFFY in the vault and pays gold back to h
+  count tokenized in memes: 7
+memes/index.html [Long gold] #1:   color: var(--ink-500);\n                "\n                >Long gold</span\n              ></span\n            ></a\n          >\n          <nav\n            style
+  count Long gold in memes: 1
+memes/index.html [ownership of gold] #1: th tokenized $GLD on Robinhood Chain. It does not represent ownership of gold, and holders cannot redeem assets from the treasury. Not an investment product, not finan
+  count ownership of gold in memes: 1
+memes/index.html [long gold] #1:          vault. Download, caption, post, repeat. The dog is long gold.\n            </p>\n            <div\n              style="\n                display: flex;\n 
+  count long gold in memes: 1
+schiffy.gold/index.html [Tokenized gold] #1: #x27;t a mascot here: it&#x27;s the other side of the pair. Tokenized gold, settled\n                            on-chain, sits underneath $SCHIFFY&#x27;s price. Whe
+  count Tokenized gold in schiffy.gold: 1
+schiffy.gold/index.html [tokenized] #1: oesn&#x27;t fetch — he accumulates. $SCHIFFY trades against tokenized $GLD on Robinhood Chain; every trade stacks $SCHIFFY in the vault and pays gold back to h
+schiffy.gold/index.html [tokenized] #2: oesn&#x27;t fetch — he accumulates. $SCHIFFY trades against tokenized $GLD on Robinhood Chain; every trade stacks $SCHIFFY in the vault and pays gold back to h
+schiffy.gold/index.html [tokenized] #3: oesn&#x27;t fetch — he accumulates. $SCHIFFY trades against tokenized $GLD on Robinhood Chain; every trade stacks $SCHIFFY in the vault and pays gold back to h
+  count tokenized in schiffy.gold: 11
+schiffy.gold/index.html [ownership of gold] #1: th tokenized $GLD on Robinhood Chain. It does not represent ownership of gold, and holders cannot redeem assets from the treasury. Not an investment product, not finan
+  count ownership of gold in schiffy.gold: 1
+schiffy.gold/index.html [Treasury gold] #1: margin-bottom:var(--sp-2)">\n                                Treasury gold</div>\n                            <div style="display:flex;align-items:baseline;gap:6px;j
+  count Treasury gold in schiffy.gold: 1
+schiffy.gold/index.html [Gold back] #1:                        style="display:flex;gap:var(--sp-6)">Gold back to holders<span\n                                style="color:var(--cream-500)">✦</span></
+schiffy.gold/index.html [Gold back] #2:                        style="display:flex;gap:var(--sp-6)">Gold back to holders<span\n                                style="color:var(--cream-500)">✦</span></
+  count Gold back in schiffy.gold: 2
+schiffy.gold/index.html [Gold fees] #1: ading);margin-top:var(--sp-4)">\n                            Gold fees pay <span style="font-family:var(--font-body);font-weight:900">$</span>SCHIFFY\n          
+  count Gold fees in schiffy.gold: 1
+schiffy.gold/index.html [against gold] #1:                     Not a USD pair. The dog trades directly against gold, on-chain, so <span\n                                style="font-family:var(--font-body);f
+  count against gold in schiffy.gold: 1
+schiffy.gold/index.html [The underlying] #1: 00);margin-bottom:var(--sp-3)">\n                            The underlying</div>\n                        <h2\n                            style="font-family:var(--fo
+  count The underlying in schiffy.gold: 1

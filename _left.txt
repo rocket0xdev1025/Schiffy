@@ -1,0 +1,4 @@
+how\index.html [GLD] @101941:            Two currencies come in. SCHIFFY goes to the vault in full; GLD\n              splits 90/10, holders / vault. The collect crank is permissionless\n        
+vault\index.html [GLD] @82229: rder:2px solid var(--ink-900);background:var(--gradient-gold)"></span>GLD</span></td><td style="padding:14px 0;color:var(--ink-500);font-size:var(--fs-small)">WETH
+vault\index.html [of gold] @84145: t-body);font-weight:900">$</span>SCHIFFY does not represent ownership of gold and holders cannot redeem vault assets.</p></div></section><section style="background:var
+vault\index.html [ownership of gold] @84135: :var(--font-body);font-weight:900">$</span>SCHIFFY does not represent ownership of gold and holders cannot redeem vault assets.</p></div></section><section style="background:var
