@@ -242,7 +242,7 @@
                                 address: (0, i.shortAddr)(
                                   e?.addresses?.schiffy
                                 ),
-                                full: e?.addresses?.schiffy || "TBA",
+                                full: e?.addresses?.schiffy || "0x3c934eee3fd33be89d0c0a5d073dcf2ea3b3dc26",
                               }),
                               (0, a.jsx)(i.CopyChip, {
                                 label: "$GLD",

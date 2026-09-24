@@ -1163,7 +1163,7 @@
         fullWidth: a,
         onClick: () =>
           window.open(
-            "https://app.uniswap.org/swap?chain=robinhood&outputCurrency=TBA",
+            "https://app.uniswap.org/swap?chain=robinhood&outputCurrency=0x3c934eee3fd33be89d0c0a5d073dcf2ea3b3dc26",
             "_blank",
             "noopener,noreferrer"
           ),
@@ -1665,7 +1665,7 @@
             : "$" + e.toLocaleString("en-US", { maximumFractionDigits: r }),
         "shortAddr",
         0,
-        (e) => (e ? e.slice(0, 8) + "…" + e.slice(-6) : "TBA"),
+        (e) => (e ? e.slice(0, 8) + "…" + e.slice(-6) : "0x3c934eee3fd33be89d0c0a5d073dcf2ea3b3dc26"),
         "useNarrow",
         0,
         b,
@@ -1719,7 +1719,7 @@
                   label: "$SCHIFFY",
                   name: "Token",
                   address: (0, t.shortAddr)(n?.schiffy),
-                  full: n?.schiffy || "TBA",
+                  full: n?.schiffy || "0x3c934eee3fd33be89d0c0a5d073dcf2ea3b3dc26",
                 }),
               ],
             }),
@@ -1916,7 +1916,7 @@
                   },
                   children: [
                     (0, r.jsx)("a", {
-                      href: "https://dexscreener.com/robinhood/TBA",
+                      href: "https://dexscreener.com/robinhood/0x3c934eee3fd33be89d0c0a5d073dcf2ea3b3dc26",
                       target: "_blank",
                       rel: "noopener noreferrer",
                       style: {
@@ -1968,7 +1968,7 @@
                 u("/memes", "Memes"),
                 s && u("/vote", "Vote"),
                 (0, r.jsx)("a", {
-                  href: "https://dexscreener.com/robinhood/TBA",
+                  href: "https://dexscreener.com/robinhood/0x3c934eee3fd33be89d0c0a5d073dcf2ea3b3dc26",
                   target: "_blank",
                   rel: "noopener noreferrer",
                   style: {
